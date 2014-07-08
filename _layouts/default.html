@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../foundation/css/foundation.css">
+<link rel="stylesheet" href="../foundation/css/normalize.css">
+<script src="../foundation/js/vendor/modernizr.js"></script>
+<title>{{ page.title }}</title>
+</head>
+<body>
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">Hokkaido Space Union</a></h1>
+        </li>
+      </ul>
+      <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li><a href="./cansat.html">CanSat</a></li>
+          <li><a href="./rover.html">ローバ</a></li>
+          <li><a href="./groundstation.html">地上局</a></li>
+          <li><a href="./sushi.html">寿司</a></li>
+        </ul>
+      </section>
+    </nav>
+    <article>
+        {{ content }}
+    </article>
+    <script src="../foundation/js/vendor/jquery.js"></script>
+    <script src="../foundation/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>
